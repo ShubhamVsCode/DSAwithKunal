@@ -8,7 +8,7 @@ public class Q7 {
         System.out.println(isPrime(num));
     }
 
-    private static boolean isPrime(int num) {
+    static boolean isPrime(int num) {
         if (num < 2){
             return false;
         }
